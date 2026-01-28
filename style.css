@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+body {
+    background: #000;
+    color: #fff;
+}
+.hero {
+    height: 100vh;
+    background: url("logocva2.jpg") center/cover fixed;
+    filter: brightness(1.3);
+}
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,.7);
+}
+.hero-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    top: 40%;
+}
+.hero h1 {
+    font-size: 60px;
+    color: #00eaff;
+    text-shadow: 0 0 30px #00eaff;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+.section {
+    padding: 80px 10%;
+}
+.dark {
+    background: #0a0a0a;
+}
+.club-card {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    background: #111;
+    padding: 40px;
+    border-radius: 30px;
+    box-shadow: 0 0 30px rgba(0,234,255,.3);
+}
+.club-card.reverse {
+    flex-direction: row-reverse;
+}
+.club-card img {
+    width: 300px;
+    border-radius: 25px;
+}
+.club-info h2 {
+    color: #00eaff;
+    margin-bottom: 15px;
+}
+.club-info p {
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+.btn-group a {
+    text-decoration: none;
+    padding: 12px 28px;
+    border-radius: 30px;
+    margin-right: 15px;
+    font-weight: bold;
+    background: #00eaff;
+    color: #000;
+}
+.btn-group a.outline {
+    background: transparent;
+    border: 2px solid #00eaff;
+    color: #00eaff;
+}
+footer {
+    background: #000;
+    padding: 30px;
+    text-align: center;
+}
+
+footer a {
+    color: #00eaff;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer p {
+    margin-top: 10px;
+    font-size: 14px;
+}
